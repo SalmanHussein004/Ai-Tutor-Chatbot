@@ -102,7 +102,7 @@ export default function Home() {
       return { role: 'assistant', content: data.response };
     } catch (error) {
       console.error('Error fetching GEMINI response:', error);
-      return { role: 'assistant', content: "Sorry, I couldn't process that request." };
+      return { role: 'assistant', content: "Sorry, I couldn't process that request. Please Enter Your API KEY" };
     }
   };
 
